@@ -19,7 +19,7 @@ https://localhost:7076/users
 ```
 
 
-TO DO list:
+## TO DO list:
 2. The repository should have a README.md file at the root with the following information 
 3. Write tests plan for all endpoints
 4. (DONE) Update model and Create a migration file to add LearningItemName and ItemId to the learningPlanItem model and DBtable. DONE - Using:  
@@ -28,13 +28,13 @@ TO DO list:
   NOTE: TO UNDO, use `ef migrations remove`
 
 
-How to run the code:
+## How to run the code:
 1. From the terminal:  dotnet run
 2. Make GET request using Postman and include as a key in the request headers.
 (Ex: key -> UserToken   value -> 1DeyjK5vvSwjc9o9jYArVo2yov2SnjnXEE)
 
 
-Questions to turn in:
+## Questions to turn in:
 
   How many active users are there for UserToken = 1MEYQDDgwrTkYPtu7Vhfyjp7qkuGnf4ztR company?  
   Answer: 4
@@ -43,6 +43,7 @@ Questions to turn in:
 
   What does the JSON of the user plan for UserToken = 1F7Xg1CJdffsnv9uEXj6GhLERQSam4xwx6 look like?
   Answer: 
+  ```
   {
     "learningPlanId": 3,
     "userId": 2,
@@ -89,7 +90,8 @@ Questions to turn in:
             "incentive": null
         }
     ]
-} 
+}
+```
 
 How many incentives is UserToken = 1DeyjK5vvSwjc9o9jYArVo2yov2SnjnXEE eligible for? 
 Answer: 0 (Reason: That user does not have, incentives associated with their plan).
