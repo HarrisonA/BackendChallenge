@@ -81,21 +81,21 @@ BackendChallenge
 ## Utility functions
 - Validate that incorrect argument types generates an error
 - Test that valid arguments (types and values) generates a valid response
-- (if needed) Add more details specific to each function
+- (if needed) add more test details that are specific to each function
 
 ## Controllers functions (Users, LearningPlan and Incentives controllers)
 (Do the following for all functions created by the developer (me), i.e. not the built-in native functions)
 1. Validate that incorrect argument types generates an error
 2. Test that valid arguments (types and values) generates a valid response
 3. Test that all function errors are caught by each controllers try/catch blocks, and the expected exception is captured
-4. (if needed) Add more details specific to each function
+4. (if needed) Add more test details that are specific to each function
 
 # API tests
 
 ## GET requests to any of: /users, /learning-plan, or /incentives endpoints
-1. without user token (in request header) —>  return an error
-2. with invalid user token (in request header) —> return an error
-3. with non-string user token (in request header) —> return an error
+1. without user token in request header —>  return an error
+2. with invalid user token in request header —> return an error
+3. with non-string user token in request header —> return an error
 4. Validate the response codes for all of the above scenarios
 
 ## GET requests to any endpoint besides  /users, /learning-plan, or /incentives —> return an error
