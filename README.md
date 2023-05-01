@@ -84,7 +84,7 @@ BackendChallenge
 - (if needed) Add more details specific to each function
 
 ## Controllers functions (Users, LearningPlan and Incentives controllers)
-(created by the developer (me))
+(Do the following for all functions created by the developer (me), i.e. not the built-in native functions)
 1. Validate that incorrect argument types generates an error
 2. Test that valid arguments (types and values) generates a valid response
 3. Test that all function errors are caught by each controllers try/catch blocks, and the expected exception is captured
