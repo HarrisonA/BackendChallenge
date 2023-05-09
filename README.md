@@ -4,12 +4,14 @@ BackendChallenge
 
 ## How to run the code:
 1. From the terminal:  dotnet run
-2. Make GET request using Postman and include as a key in the request headers.
-(Ex: key -> UserToken   value -> 1DeyjK5vvSwjc9o9jYArVo2yov2SnjnXEE)
-3. Endpoints: 
-/users 
-/learning-plan 
-/incentives
+2. Make GET request using Postman and include UserToken as a key in the request headers.  
+*Example:     
+key: UserToken  
+value: 1DeyjK5vvSwjc9o9jYArVo2yov2SnjnXEE*   
+3. Endpoints:   
+/users   
+/learning-plan  
+/incentives  
 
 
 ## Questions to turn in:
